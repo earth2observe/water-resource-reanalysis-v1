@@ -1,0 +1,17 @@
+Total sub-region analysis for swe from GLOBSNOW
+  KeyWords: REGION
+                             Region Name      MinLat      MinLon      MaxLat      MaxLon  Annual OBS
+               BONA:Boreal North America       49.75     -170.25       79.75      -60.25       35.81
+            TENA:Temperate North America       30.25     -125.25       49.75      -80.25        2.79
+                    CEAM:Central America        9.75     -115.25       30.25      -80.25        0.00
+  NHSA:Northern Hemisphere South America        0.25      -80.25        9.75      -50.25     -999.00
+  SHSA:Southern Hemisphere South America      -59.75      -80.25        0.25      -40.25     -999.00
+                             EURO:Europe       40.25      -10.25       70.25       30.25        8.19
+                        MIDE:Middle East       20.25      -10.25       40.25       60.25        0.03
+         NHAF:Northern Hemisphere Africa        0.25      -20.25       20.25       45.25     -999.00
+         SHAF:Southern Hemisphere Africa      -34.75       10.25        0.25       45.25     -999.00
+                        BOAS:Boreal Asia       54.75       30.25       70.25      179.75       44.94
+                       CEAS:Central Asia       30.25       30.25       54.75      135.25        4.94
+                     SEAS:Southeast Asia       10.25       65.25       30.25      120.25        0.01
+                    EQAS:Equatorial Asia      -10.25       99.75       10.25      150.25     -999.00
+                          AUST:Australia      -34.75      124.75      -10.25      154.75     -999.00

@@ -1,0 +1,14 @@
+RMSE Score for TWSA: Model against GRACE, 2003-2012
+   No._of_DATA:  7400365.00
+           GRACE    -999.00
+       MeanModel       0.46
+    HTESSEL-CaMa       0.47
+           JULES       0.47
+        LISFLOOD       0.43
+        ORCHIDEE       0.46
+      PCR-GLOBWB       0.43
+     SURFEX-TRIP       0.41
+            SWBM       0.36
+            W3RA       0.31
+       WaterGAP3       0.40
+      HBV-SIMREG       0.41

@@ -1,0 +1,14 @@
+Taylorscore for std dev of TWSA: Model against GRACE
+   No._of_DATA:  7400365.00
+           GRACE    -999.00
+       MeanModel       0.61
+    HTESSEL-CaMa       0.67
+           JULES       0.51
+        LISFLOOD       0.39
+        ORCHIDEE       0.25
+      PCR-GLOBWB       0.69
+     SURFEX-TRIP       0.60
+            SWBM       0.44
+            W3RA       0.64
+       WaterGAP3       0.53
+      HBV-SIMREG       0.61

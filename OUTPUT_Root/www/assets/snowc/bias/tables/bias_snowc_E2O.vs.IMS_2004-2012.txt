@@ -1,0 +1,14 @@
+Bias for SNOWC (snow/snow+land): Model against IMS, 2004-2012
+   No._of_DATA:  4793172.00
+             IMS    -999.00
+       MeanModel      -0.01
+    HTESSEL-CaMa      -0.02
+           JULES       0.00
+        LISFLOOD    -999.00
+        ORCHIDEE      -0.03
+      PCR-GLOBWB    -999.00
+     SURFEX-TRIP      -0.01
+            SWBM    -999.00
+            W3RA      -0.02
+       WaterGAP3      -0.01
+      HBV-SIMREG    -999.00

@@ -1,0 +1,14 @@
+Bias for SWI (m3/m3): Model against ESA-CCI, 1979-2012
+   No._of_DATA:  14296521.00
+         ESA-CCI    -999.00
+       MeanModel       0.04
+    HTESSEL-CaMa       0.10
+           JULES       0.06
+        LISFLOOD       0.11
+        ORCHIDEE       0.05
+      PCR-GLOBWB       0.04
+     SURFEX-TRIP       0.09
+            SWBM      -0.05
+            W3RA       0.09
+       WaterGAP3       0.01
+      HBV-SIMREG      -0.10

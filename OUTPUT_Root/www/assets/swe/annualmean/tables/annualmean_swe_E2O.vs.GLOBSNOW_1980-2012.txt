@@ -1,0 +1,14 @@
+Annual Mean for SWE (kg/m2): Model against GlobSnow, 1980-2012
+   No._of_DATA:  8731183.00
+        GLOBSNOW       9.30
+       MeanModel      29.55
+    HTESSEL-CaMa      49.92
+           JULES      21.34
+        LISFLOOD      21.08
+        ORCHIDEE       6.90
+      PCR-GLOBWB      52.95
+     SURFEX-TRIP      27.15
+            SWBM      26.47
+            W3RA      17.86
+       WaterGAP3      14.53
+      HBV-SIMREG      57.31

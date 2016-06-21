@@ -1,0 +1,14 @@
+Overall Score for ET: Model against GLEAM, 1980-2011
+   No._of_DATA:  83886080.00
+           GLEAM    -999.00
+       MeanModel       0.83
+    HTESSEL-CaMa       0.80
+           JULES       0.81
+        LISFLOOD       0.81
+        ORCHIDEE       0.76
+      PCR-GLOBWB       0.78
+     SURFEX-TRIP       0.78
+            SWBM       0.81
+            W3RA       0.80
+       WaterGAP3       0.70
+      HBV-SIMREG       0.80

@@ -1,0 +1,14 @@
+Interannual Variability Score for SWIA: Model against ESA-CCI, 1979-2012
+   No._of_DATA:  14296521.00
+         ESA-CCI    -999.00
+       MeanModel       0.54
+    HTESSEL-CaMa       0.63
+           JULES       0.57
+        LISFLOOD       0.57
+        ORCHIDEE       0.58
+      PCR-GLOBWB       0.57
+     SURFEX-TRIP       0.58
+            SWBM       0.47
+            W3RA       0.50
+       WaterGAP3       0.44
+      HBV-SIMREG       0.48

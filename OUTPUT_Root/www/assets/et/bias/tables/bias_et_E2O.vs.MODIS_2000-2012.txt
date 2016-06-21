@@ -1,0 +1,14 @@
+Bias for ET (mm/day): Model against MODIS, 2000-2012
+   No._of_DATA:  7906356.00
+           MODIS    -999.00
+       MeanModel       0.20
+    HTESSEL-CaMa       0.32
+           JULES       0.17
+        LISFLOOD       0.05
+        ORCHIDEE       0.37
+      PCR-GLOBWB       0.14
+     SURFEX-TRIP       0.27
+            SWBM       0.15
+            W3RA       0.16
+       WaterGAP3       0.17
+      HBV-SIMREG       0.18

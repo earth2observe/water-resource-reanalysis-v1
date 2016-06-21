@@ -1,0 +1,14 @@
+Seasonal Cycle Score for ET: Model against GLEAM, 1980-2011
+   No._of_DATA:  16777216.00
+           GLEAM    -999.00
+       MeanModel       0.87
+    HTESSEL-CaMa       0.85
+           JULES       0.84
+        LISFLOOD       0.85
+        ORCHIDEE       0.78
+      PCR-GLOBWB       0.82
+     SURFEX-TRIP       0.83
+            SWBM       0.86
+            W3RA       0.83
+       WaterGAP3       0.82
+      HBV-SIMREG       0.86

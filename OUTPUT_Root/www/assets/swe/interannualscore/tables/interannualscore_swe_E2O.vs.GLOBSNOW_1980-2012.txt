@@ -1,0 +1,14 @@
+Interannual Variability Score for SWE: Model against GlobSnow, 1980-2012
+   No._of_DATA:  8731183.00
+        GlobSnow    -999.00
+       MeanModel       0.73
+    HTESSEL-CaMa       0.73
+           JULES       0.69
+        LISFLOOD       0.73
+        ORCHIDEE       0.66
+      PCR-GLOBWB       0.72
+     SURFEX-TRIP       0.73
+            SWBM       0.75
+            W3RA       0.74
+       WaterGAP3       0.70
+      HBV-SIMREG       0.57

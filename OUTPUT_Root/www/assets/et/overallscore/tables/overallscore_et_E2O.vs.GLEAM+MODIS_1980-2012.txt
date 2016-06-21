@@ -1,0 +1,14 @@
+Overall Score for ET against GLEAM+MODIS
+   No._of_DATA:  123417856.00
+       Benchmark    -999.00
+       MeanModel       0.81
+    HTESSEL-CaMa       0.78
+           JULES       0.79
+        LISFLOOD       0.79
+        ORCHIDEE       0.75
+      PCR-GLOBWB       0.77
+     SURFEX-TRIP       0.77
+            SWBM       0.78
+            W3RA       0.77
+       WaterGAP3       0.69
+      HBV-SIMREG       0.77

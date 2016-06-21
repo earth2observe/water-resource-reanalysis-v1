@@ -1,0 +1,14 @@
+Overall Score for SWI: Model against ESA-CCI, 1979-2012
+   No._of_DATA:  71482608.00
+         ESA-CCI    -999.00
+       MeanModel       0.80
+    HTESSEL-CaMa       0.69
+           JULES       0.76
+        LISFLOOD       0.70
+        ORCHIDEE       0.73
+      PCR-GLOBWB       0.67
+     SURFEX-TRIP       0.74
+            SWBM       0.67
+            W3RA       0.70
+       WaterGAP3       0.69
+      HBV-SIMREG       0.59
