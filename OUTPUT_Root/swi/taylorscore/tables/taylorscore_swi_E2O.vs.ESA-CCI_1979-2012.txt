@@ -1,0 +1,14 @@
+Taylorscore for annual mean of SWI: Model against ESA-CCI
+   No._of_DATA:  14296521.00
+         ESA-CCI    -999.00
+       MeanModel       0.92
+    HTESSEL-CaMa       0.64
+           JULES       0.84
+        LISFLOOD       0.75
+        ORCHIDEE       0.81
+      PCR-GLOBWB       0.65
+     SURFEX-TRIP       0.85
+            SWBM       0.80
+            W3RA       0.74
+       WaterGAP3       0.73
+      HBV-SIMREG       0.74

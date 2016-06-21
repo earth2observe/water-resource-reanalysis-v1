@@ -1,0 +1,14 @@
+Interannual Variability Score for TWSA: Model against GRACE, 2003-2012
+   No._of_DATA:  7400365.00
+           GRACE    -999.00
+       MeanModel       0.58
+    HTESSEL-CaMa       0.54
+           JULES       0.55
+        LISFLOOD       0.55
+        ORCHIDEE       0.53
+      PCR-GLOBWB       0.46
+     SURFEX-TRIP       0.54
+            SWBM       0.49
+            W3RA       0.57
+       WaterGAP3       0.46
+      HBV-SIMREG       0.55

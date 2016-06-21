@@ -1,0 +1,14 @@
+Taylorscore for std dev of SWIA: Model against ESA-CCI
+   No._of_DATA:  14296521.00
+         ESA-CCI    -999.00
+       MeanModel       0.80
+    HTESSEL-CaMa       0.75
+           JULES       0.83
+        LISFLOOD       0.74
+        ORCHIDEE       0.71
+      PCR-GLOBWB       0.62
+     SURFEX-TRIP       0.76
+            SWBM       0.26
+            W3RA       0.79
+       WaterGAP3       0.59
+      HBV-SIMREG       0.72

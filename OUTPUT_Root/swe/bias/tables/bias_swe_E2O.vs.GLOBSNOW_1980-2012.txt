@@ -1,0 +1,14 @@
+Bias for SWE (kg/m2): Model against GlobSnow, 1980-2012
+   No._of_DATA:  8731183.00
+        GLOBSNOW    -999.00
+       MeanModel      20.25
+    HTESSEL-CaMa      40.62
+           JULES      12.04
+        LISFLOOD      11.78
+        ORCHIDEE      -2.41
+      PCR-GLOBWB      43.65
+     SURFEX-TRIP      17.85
+            SWBM      17.17
+            W3RA       8.55
+       WaterGAP3       5.22
+      HBV-SIMREG      48.01

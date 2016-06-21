@@ -1,0 +1,14 @@
+Interannual Variability Score for SWI: Model against ESA-CCI, 1979-2012
+   No._of_DATA:  14296521.00
+         ESA-CCI    -999.00
+       MeanModel       0.62
+    HTESSEL-CaMa       0.67
+           JULES       0.64
+        LISFLOOD       0.61
+        ORCHIDEE       0.59
+      PCR-GLOBWB       0.57
+     SURFEX-TRIP       0.64
+            SWBM       0.52
+            W3RA       0.59
+       WaterGAP3       0.47
+      HBV-SIMREG       0.53

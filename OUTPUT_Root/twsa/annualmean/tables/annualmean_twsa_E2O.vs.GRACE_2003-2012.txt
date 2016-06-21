@@ -1,0 +1,14 @@
+Std Dev for TWSA (cm): Model against GRACE, 2003-2012
+   No._of_DATA:  7400365.00
+           GRACE       6.90
+       MeanModel       5.60
+    HTESSEL-CaMa       6.62
+           JULES       5.14
+        LISFLOOD       4.77
+        ORCHIDEE       6.12
+      PCR-GLOBWB       8.88
+     SURFEX-TRIP       8.40
+            SWBM       7.58
+            W3RA       6.36
+       WaterGAP3       2.81
+      HBV-SIMREG       5.81
