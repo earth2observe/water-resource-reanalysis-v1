@@ -1,4 +1,0 @@
-Contributions from benchmark sources for the variable ET against GLEAM+MODIS
-                                 Benchmark Sources          Weights
-                                            GLEAM:               15
-                                            MODIS:               15
