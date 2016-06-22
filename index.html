@@ -37,214 +37,311 @@
          </div>
          <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-               <li><a href="/water-resource-reanalysis-v1" id=""><b>ILAMB Home</b></a></li>
+               <li><a href="/water-resource-reanalysis-v1" id=""><b>Model Data Access &amp; Verification Home</b></a></li>
                <li><a href="http://www.earth2observe.eu/">Main eartH2Observe website &raquo;</a></li>
             </ul>
          </div>
          <!--/.nav-collapse -->
       </div>
    </div>
-   
    <div class="container content">
       <div class="row">
          <div class="col-lg-12">
-            
-            <h1>Metric Document, Scoring Metrics, Data, Model and Overall Diagnostic Information</h1>
+            <h1>eartH2Observe Water Resource Reanalysis v1</h1>
+            <p><em>Do we want some introduction text here? A link to the paper perhaps?</em></p>
+         </div>
+      </div>
+   </div>
+   <div class="container separator"></div>
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-8">
+            <h2>Model Verification Results</h2>
+            <p><em>Replace this with an introductory paragraph about the verification output</em></p>
+            <p><a href="ilamb.html" class="btn btn-primary">View the Verification Results</a>
+         </div>
+         <div class="col-lg-4">
+            <img src="assets/swia/annualmean/plots/PNG/annualmean_swia_ESA-CCI.vs.ESA-CCI_1979-2012.png" class="img-responsive" />
+         </div>
+      </div>
+   </div>
+   <div class="container separator"></div>
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12">
+            <h2>Model Data Access</h2>
+            <h4>Data Access Methods</h4>
+            <p>All of the WRR1 model data is available for download by a number of methods:</p>
+            <ul>
+               <li><b>WCI Portal View</b> - this tool offers a method to explore the data visually; you can also analyse, extract and download data for specific regions using this tool.</li>
+               <li><b>Individual &amp; Aggregated Files</b> - access to the daily and monthly files using
+                  <acronym title="Thematic Real-Time Environmental Distributed Data Services">THREDDS</acronym> via these protocols:
+                  <ul>
+                     <li>Web Map Service (WMS)</li>
+                     <li>Web Coverage Service (WCS)</li>
+                     <li>Opendap</li>
+                     <li>HTTP Download</li>
+                  </ul>
+               </li>
+               <li><b>FTP Download</b> - guest read-only FTP acess is available using the following credentials:
+                  <ul>
+                     <li>Username: e2o_guest</li>
+                     <li>Password: oowee3WeifuY1aeb</li>
+                  </ul>
+            </ul>
+            <h3>WRR1 Model Outputs</h3>
             <div class="table-responsive">
                <table class="table table-bordered table-striped">
                   <tr>
-                     <td>Metric Document</td>
-                     <td>Rules for Scoring System</td>
-                     <td>Scoring Metrics, Data and Overall Info</td>
-                     <td>Model Data Availability</td>
+                     <th>Model Name</th>
+                     <th>Provider Organisation</th>
+                     <th>WCI Portal View</th>
+                     <th>Individual Files</th>
+                     <th>Aggregated Files *</th>
+                     <th>FTP</th>
                   </tr>
                   <tr>
-                     <td>Click <a href='../readme/ILAMB_metrics_document.pdf'>Here</a></td>
-                     <td>Click <a href='../readme/ILAMB_carbon_profile_info.pdf'>Here</a></td>
-                     <td>Click <a href='table_scoring_metrics.html'>Here</a></td>
-                     <td>Click <a href='table_avail_models.html'>Here</a></td>
+                     <td>HTESSEL</td>
+                     <td>European Centre for Medium-Range Weather Forecasts (ECMWF)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/ecmwf/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ecmwf-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ecmwf-wrr1-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/ecmwf/wrr1/" target="_blank">FTP</a></td>
                   </tr>
-               </table>
-            </div>
-            <h1>Overall Scores</h1>
-            <div class="table-responsive">
-               <table class="table table-bordered table-striped">
                   <tr>
-                     <td></td>
-                     <td>MeanModel</td>
-                     <td>HTESSEL-CaMa</td>
                      <td>JULES</td>
+                     <td>Centre for Ecology and Hydrology (CEH)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ceh/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ceh/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/ceh/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ceh-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ceh-wrr1-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/ceh/wrr1/" target="_blank">FTP</a></td>
+                  </tr>
+                  <tr>
                      <td>LISFLOOD</td>
+                     <td>Joint Research Centre (JRC)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/jrc/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/jrc/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/jrc/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=jrc-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=jrc-wrr1-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/jrc/wrr1/" target="_blank">FTP</a></td>
+                  </tr>
+                  <tr>
                      <td>ORCHIDEE</td>
+                     <td>Centre National de la Recherche Scientifique (CNRS)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/cnrs/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/cnrs/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/cnrs/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=cnrs-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=cnrs-wrr1-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/cnrs/wrr1/" target="_blank">FTP</a></td>
+                  </tr>
+                  <tr>
                      <td>PCR-GLOBWB</td>
+                     <td>Universiteit Utrecht (UU)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/uu/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/uu/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/uu/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=uu-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=uu-wrr1-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/uu/wrr1/" target="_blank">FTP</a></td>
+                  </tr>
+                  <tr>
                      <td>SURFEX-TRIP</td>
+                     <td>Meteo France</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/metfr/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/metfr/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/metfr/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=metfr-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=metfr-wrr1-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/metfr/wrr1/" target="_blank">FTP</a></td>
+                  </tr>
+                  <tr>
                      <td>SWBM</td>
+                     <td>Eidgenössische Technische Hochschule (ETH)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/eth/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/eth/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/eth/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=eth-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=eth-wrr1-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/eth/wrr1/" target="_blank">FTP</a></td>
+                  </tr>
+                  <tr>
                      <td>W3RA</td>
+                     <td>Commonwealth Scientific and Industrial Research Organisation (CSIRO)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/csiro/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/csiro/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/csiro/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=csiro-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=csiro-wrr1-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/csiro/wrr1/" target="_blank">FTP</a></td>
+                  </tr>
+                  <tr>
                      <td>WaterGAP3</td>
+                     <td>Universitat Kassel</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/univk/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/univk/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/univk/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=univk-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=univk-wrr1-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/univk/wrr1/" target="_blank">FTP</a></td>
+                  </tr>
+                  <tr>
                      <td>HBV-SIMREG</td>
-                  </tr>
-                  <tr>
-                     <td><a href='assets/summary/overallscore_GlobalVariables.png' class='fancy'>Global Variables</a></td>
-                     <td> 0.72</td>
-                     <td> 0.70</td>
-                     <td> 0.71</td>
-                     <td> 0.55</td>
-                     <td> 0.69</td>
-                     <td> 0.53</td>
-                     <td> 0.70</td>
-                     <td> 0.50</td>
-                     <td> 0.68</td>
-                     <td> 0.66</td>
-                     <td> 0.49</td>
-                  </tr>
-                  <tr>
-                     <td><a href='assets/summary/overallscore_all.png' class='fancy'>Overall</a></td>
-                     <td> 0.72</td>
-                     <td> 0.70</td>
-                     <td> 0.71</td>
-                     <td> 0.55</td>
-                     <td> 0.69</td>
-                     <td> 0.53</td>
-                     <td> 0.70</td>
-                     <td> 0.50</td>
-                     <td> 0.68</td>
-                     <td> 0.66</td>
-                     <td> 0.49</td>
+                     <td>Joint Research Centre (JRC)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/jrc/wrr1-hbv-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/jrc/wrr1-hbv-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/jrc/wrr1-hbv/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=jrc-wrr1-hbv-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=jrc-wrr1-hbv-monthly-agg" target="_blank">Monthly</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/jrc/wrr1-hbv/" target="_blank">FTP</a></td>
                   </tr>
                </table>
+               <p>* HTTP Download is not available for aggregated files</p>
             </div>
-            <h1>Global Variables (<a href='../summary/tables/weights_allvariables.txt'>Info</a> for Weightings)</h1>
+            <h3>WRR1 Forcing Data</h3>
             <div class="table-responsive">
                <table class="table table-bordered table-striped">
                   <tr>
-                     <td></td>
-                     <td>MeanModel</td>
-                     <td>HTESSEL-CaMa</td>
-                     <td>JULES</td>
-                     <td>LISFLOOD</td>
-                     <td>ORCHIDEE</td>
-                     <td>PCR-GLOBWB</td>
-                     <td>SURFEX-TRIP</td>
-                     <td>SWBM</td>
-                     <td>W3RA</td>
-                     <td>WaterGAP3</td>
-                     <td>HBV-SIMREG</td>
+                     <th>Name</th>
+                     <th>Provider Organisation</th>
+                     <th>WCI Portal View</th>
+                     <th>Individual Files</th>
+                     <th>FTP</th>
                   </tr>
                   <tr>
-                     <td><a href='table_swia.html'>Soil Water Index Anomaly</a></td>
-                     <td> 0.58</td>
-                     <td> 0.60</td>
-                     <td> 0.59</td>
-                     <td> 0.58</td>
-                     <td> 0.55</td>
-                     <td> 0.56</td>
-                     <td> 0.58</td>
-                     <td> 0.45</td>
-                     <td> 0.58</td>
-                     <td> 0.50</td>
-                     <td> 0.56</td>
-                  </tr>
-                  <tr>
-                     <td><a href='table_et.html'>Evapotranspiration</a></td>
-                     <td> 0.81</td>
-                     <td> 0.78</td>
-                     <td> 0.79</td>
-                     <td> 0.79</td>
-                     <td> 0.75</td>
-                     <td> 0.77</td>
-                     <td> 0.77</td>
-                     <td> 0.78</td>
-                     <td> 0.77</td>
-                     <td> 0.69</td>
-                     <td> 0.77</td>
-                  </tr>
-                  <tr>
-                     <td><a href='table_swi.html'>Soil Water Index</a></td>
-                     <td> 0.80</td>
-                     <td> 0.69</td>
-                     <td> 0.76</td>
-                     <td> 0.70</td>
-                     <td> 0.73</td>
-                     <td> 0.67</td>
-                     <td> 0.74</td>
-                     <td> 0.67</td>
-                     <td> 0.70</td>
-                     <td> 0.69</td>
-                     <td> 0.59</td>
-                  </tr>
-                  <tr>
-                     <td><a href='table_swe.html'>Snow Water Equivalent</a></td>
-                     <td> 0.67</td>
-                     <td> 0.64</td>
-                     <td> 0.66</td>
-                     <td> 0.71</td>
-                     <td> 0.74</td>
-                     <td> 0.60</td>
-                     <td> 0.67</td>
-                     <td> 0.61</td>
-                     <td> 0.67</td>
-                     <td> 0.74</td>
-                     <td> 0.48</td>
-                  </tr>
-                  <tr>
-                     <td><a href='table_snowc.html'>Snow Cover</a></td>
-                     <td> 0.88</td>
-                     <td> 0.87</td>
-                     <td> 0.88</td>
-                     <td>-</td>
-                     <td> 0.83</td>
-                     <td>-</td>
-                     <td> 0.89</td>
-                     <td>-</td>
-                     <td> 0.85</td>
-                     <td> 0.85</td>
-                     <td>-</td>
-                  </tr>
-                  <tr>
-                     <td><a href='table_twsa.html'>Terrestrial Water Storage Anomaly</a></td>
-                     <td> 0.59</td>
-                     <td> 0.60</td>
-                     <td> 0.57</td>
-                     <td> 0.53</td>
-                     <td> 0.51</td>
-                     <td> 0.56</td>
-                     <td> 0.56</td>
-                     <td> 0.49</td>
-                     <td> 0.53</td>
-                     <td> 0.50</td>
-                     <td> 0.57</td>
-                  </tr>
-                  <tr>
-                     <td>Summary</td>
-                     <td> 0.72</td>
-                     <td> 0.70</td>
-                     <td> 0.71</td>
-                     <td> 0.66</td>
-                     <td> 0.69</td>
-                     <td> 0.63</td>
-                     <td> 0.70</td>
-                     <td> 0.60</td>
-                     <td> 0.68</td>
-                     <td> 0.66</td>
-                     <td> 0.60</td>
-                  </tr>
-                  <tr>
-                     <td><a href='ilamb-overall.html'>Overall</a></td>
-                     <td> 0.72</td>
-                     <td> 0.70</td>
-                     <td> 0.71</td>
-                     <td> 0.55</td>
-                     <td> 0.69</td>
-                     <td> 0.53</td>
-                     <td> 0.70</td>
-                     <td> 0.50</td>
-                     <td> 0.68</td>
-                     <td> 0.66</td>
-                     <td> 0.49</td>
+                     <td>Met Forcing v0</td>
+                     <td>European Centre for Medium-Range Weather Forecasts (ECMWF)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/wrr1-daily-agg.nc" target="_blank">Daily</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
+                     </td>
+                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/ecmwf/met_forcing_v0/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/ecmwf/met_forcing_v0/" target="_blank">FTP</a></td>
                   </tr>
                </table>
             </div>
-            <p><b>Notes:  4 Categories are divided: Ecosystem and Carbon Cycle, Hydrology Cycle, Radiation and Energy Cycle, and Forcings.</b></p>
+            <h4>Forcing Variables</h4>
+            <div class="table-responsive">
+               <table class="table table-bordered table-striped">
+                  <tr>
+                     <th>Variable</th>
+                     <th>WCI Portal View</th>
+                     <th>Aggregated Files *</th>
+                  </tr>
+                  <tr>
+                     <td>Surface Incident Longwave Radiation (LWdown)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/lwdown_3hourly.nc" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/lwdown_daily.nc" target="_blank">Daily</a>
+                     </td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-lwdown-3h" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-lwdown-daily" target="_blank">Daily</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Surface Atmospheric Pressure (PSurf)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/psurf_3hourly.nc" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/psurf_daily.nc" target="_blank">Daily</a>
+                     </td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-psurf-3h" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-psurf-daily" target="_blank">Daily</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Near Surface Specific Humidity (QAir)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/qair_3hourly.nc" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/qair_daily.nc" target="_blank">Daily</a>
+                     </td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-qair-3h" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-qair-daily" target="_blank">Daily</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Rainfall Rate (Rainf)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/rainf_3hourly.nc" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/rainf_daily.nc" target="_blank">Daily</a>
+                     </td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-rainf-3h" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-rainf-daily" target="_blank">Daily</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Surface Incident Shortwave Radiation (SWdown)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/swdown_3hourly.nc" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/swdown_daily.nc" target="_blank">Daily</a>
+                     </td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-swdown-3h" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-swdown-daily" target="_blank">Daily</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Snowfall Rate (Snowf)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/snowf_3hourly.nc" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/snowf_daily.nc" target="_blank">Daily</a>
+                     </td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-snowf-3h" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-snowf-daily" target="_blank">Daily</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Air Tempterature (Tair)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/tair_3hourly.nc" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/tair_daily.nc" target="_blank">Daily</a>
+                     </td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-tair-3h" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-tair-daily" target="_blank">Daily</a>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Wind Speed (Wind)</td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/wind_3hourly.nc" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/met_forcing_v0/wind_daily.nc" target="_blank">Daily</a>
+                     </td>
+                     <td>
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-wind-3h" target="_blank">3-Hourly</a> |
+                        <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ECMWFForcingv0-wind-daily" target="_blank">Daily</a>
+                     </td>
+                  </tr>
+               </table>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="container separator"></div>
+   <div class="container footer text-muted">
+      <div class="row">
+         <div class="col-lg-12">
+            <p>The eartH2Observe project has received funding from the European Union's Seventh Programme for research, technological development and demonstration under grant agreement No. 603608</p>
+            <p>Main project website: <a href="http://www.earth2observe.eu">www.earth2observe.eu</a></p>
          </div>
       </div>
    </div>
