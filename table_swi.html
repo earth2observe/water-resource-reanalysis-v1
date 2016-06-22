@@ -47,29 +47,200 @@
    <div class="container content">
       <div class="row">
          <div class="col-lg-12">
-            <h1>Diagnostic Summary for swi: Model vs. ESA-CCI, ESA-CCI</h1>
+            <h1>Diagnostic Summary for Soil Water Index: Model vs. ESA-CCI</h1>
             <div class="table-responsive">
                <table class="table table-bordered table-striped">
                   <tr>
-                     <td> Dataset</td>
-                     <td> Reference</td>
-                     <td> Contribution</td>
-                     <td> Analysis</td>
+                     <td> </td>
+                     <td colspan='4'> Global Patterns</td>
+                     <td> Regional and Seasonal Patterns</td>
+                     <td colspan='6'> Scoring (<a href='weights_swi_ESA-CCI.html'>Info</a>)</td>
                   </tr>
                   <tr>
-                     <td> ESA-CCI</td>
-                     <td><a href='http://www.esa-soilmoisture-cci.org' target="_blank">http://www.esa-soilmoisture-cci.org</a></td>
-                     <td> 10</td>
-                     <td>access to <a href='table_swi_ESA-CCI.html'>plots</a></td>
+                     <td> </td>
+                     <td><a href='plot_annualmean_swi_ESA-CCI.html'>Annual Mean (m3/m3)</a></td>
+                     <td><a href='plot_bias_swi_ESA-CCI.html'>Bias (m3/m3)</a></td>
+                     <td><a href='plot_rmse_swi_ESA-CCI.html'>RMSE (m3/m3)</a></td>
+                     <td><a href='plot_phase_swi_ESA-CCI.html'>Phase Difference (months)</a></td>
+                     <td><a href='assets/swi/biomes/plots/PNG/map_biomes_GFED.png' class="fancy">Regional</a> Means</td>
+                     <td><a href='plot_globalbiasscore_swi_ESA-CCI.html'>Global Bias</a></td>
+                     <td><a href='plot_rmsescore_swi_ESA-CCI.html'>RMSE</a></td>
+                     <td><a href='plot_phasescore_swi_ESA-CCI.html'>Seasonal Cycle</a></td>
+                     <td><a href='plot_taylorscore_swi_ESA-CCI.html'>Spatial Distribution</a></td>
+                     <td><a href='plot_interannualscore_swi_ESA-CCI.html'>Interannual Variability</a></td>
+                     <td><a href='plot_overallscore_swi_ESA-CCI.html'>Overall</a></td>
                   </tr>
                   <tr>
-                     <td> ESA-CCI</td>
-                     <td><a href='http://www.esa-soilmoisture-cci.org' target="_blank">http://www.esa-soilmoisture-cci.org</a></td>
-                     <td> 10</td>
-                     <td>access to <a href='table_swi_ESA-CCI.html'>plots</a></td>
+                     <td>Benchmark&nbsp;<a href='http://www.esa-soilmoisture-cci.org'> [http://www.esa-soilmoisture-cci.org]</a></td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_ESA-CCI.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.16</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_ESA-CCI.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.00</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_E2O.html'>plots</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td>MeanModel</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_MeanModel.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.20</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_MeanModel.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.04</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_MeanModel.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.03</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_MeanModel.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.12</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_MeanModel.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_MeanModel.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.87</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_MeanModel.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.83</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_MeanModel.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.75</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.92</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_MeanModel.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.62</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.80</a></td>
+                  </tr>
+                  <tr>
+                     <td>HTESSEL-CaMa</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_HTESSEL-CaMa.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.26</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_HTESSEL-CaMa.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.10</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_HTESSEL-CaMa.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.07</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_HTESSEL-CaMa.vs.ESA-CCI_1979-2012.png' class='fancy'>   -0.03</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_HTESSEL-CaMa.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_HTESSEL-CaMa.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.71</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_HTESSEL-CaMa.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.69</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_HTESSEL-CaMa.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.74</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.64</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_HTESSEL-CaMa.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.67</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.69</a></td>
+                  </tr>
+                  <tr>
+                     <td>JULES</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_JULES.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.22</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_JULES.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.06</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_JULES.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.05</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_JULES.vs.ESA-CCI_1979-2012.png' class='fancy'>   -0.09</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_JULES.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_JULES.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.80</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_JULES.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.77</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_JULES.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.74</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.84</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_JULES.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.64</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.76</a></td>
+                  </tr>
+                  <tr>
+                     <td>LISFLOOD</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_LISFLOOD.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.27</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_LISFLOOD.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.11</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_LISFLOOD.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.07</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_LISFLOOD.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.35</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_LISFLOOD.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_LISFLOOD.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.72</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_LISFLOOD.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.70</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_LISFLOOD.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.74</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.75</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_LISFLOOD.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.61</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.70</a></td>
+                  </tr>
+                  <tr>
+                     <td>ORCHIDEE</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_ORCHIDEE.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.21</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_ORCHIDEE.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.05</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_ORCHIDEE.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.05</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_ORCHIDEE.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.20</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_ORCHIDEE.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_ORCHIDEE.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.78</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_ORCHIDEE.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.75</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_ORCHIDEE.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.71</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.81</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_ORCHIDEE.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.59</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.73</a></td>
+                  </tr>
+                  <tr>
+                     <td>PCR-GLOBWB</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_PCR-GLOBWB.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.20</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_PCR-GLOBWB.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.04</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_PCR-GLOBWB.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.07</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_PCR-GLOBWB.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.20</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_PCR-GLOBWB.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_PCR-GLOBWB.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.71</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_PCR-GLOBWB.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.69</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_PCR-GLOBWB.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.73</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.65</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_PCR-GLOBWB.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.57</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.67</a></td>
+                  </tr>
+                  <tr>
+                     <td>SURFEX-TRIP</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_SURFEX-TRIP.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.25</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_SURFEX-TRIP.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.09</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_SURFEX-TRIP.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.06</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_SURFEX-TRIP.vs.ESA-CCI_1979-2012.png' class='fancy'>   -0.03</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_SURFEX-TRIP.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_SURFEX-TRIP.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.77</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_SURFEX-TRIP.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.74</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_SURFEX-TRIP.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.73</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.85</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_SURFEX-TRIP.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.64</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.74</a></td>
+                  </tr>
+                  <tr>
+                     <td>SWBM</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_SWBM.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.12</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_SWBM.vs.ESA-CCI_1979-2012.png' class='fancy'>   -0.05</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_SWBM.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.07</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_SWBM.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.38</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_SWBM.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_SWBM.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.66</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_SWBM.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.66</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_SWBM.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.72</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.80</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_SWBM.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.52</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.67</a></td>
+                  </tr>
+                  <tr>
+                     <td>W3RA</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_W3RA.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.25</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_W3RA.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.09</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_W3RA.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.07</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_W3RA.vs.ESA-CCI_1979-2012.png' class='fancy'>   -0.12</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_W3RA.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_W3RA.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.72</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_W3RA.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.71</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_W3RA.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.75</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.74</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_W3RA.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.59</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.70</a></td>
+                  </tr>
+                  <tr>
+                     <td>WaterGAP3</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_WaterGAP3.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.17</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_WaterGAP3.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.01</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_WaterGAP3.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.06</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_WaterGAP3.vs.ESA-CCI_1979-2012.png' class='fancy'>   -0.29</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_WaterGAP3.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_WaterGAP3.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.75</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_WaterGAP3.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.73</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_WaterGAP3.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.72</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.73</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_WaterGAP3.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.47</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.69</a></td>
+                  </tr>
+                  <tr>
+                     <td>HBV-SIMREG</td>
+                     <td><a href='assets/swi/annualmean/plots/PNG/annualmean_swi_HBV-SIMREG.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.06</a></td>
+                     <td><a href='assets/swi/bias/plots/PNG/bias_swi_HBV-SIMREG.vs.ESA-CCI_1979-2012.png' class='fancy'>   -0.10</a></td>
+                     <td><a href='assets/swi/rmse/plots/PNG/rmse_swi_HBV-SIMREG.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.12</a></td>
+                     <td><a href='assets/swi/phase/plots/PNG/phase_swi_HBV-SIMREG.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.04</a></td>
+                     <td>access to <a href='plot_subreg_swi_ESA-CCI_HBV-SIMREG.html'>plots</a></td>
+                     <td><a href='assets/swi/globalbiasscore/plots/PNG/globalbiasscore_swi_HBV-SIMREG.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.49</a></td>
+                     <td><a href='assets/swi/rmsescore/plots/PNG/rmsescore_swi_HBV-SIMREG.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.51</a></td>
+                     <td><a href='assets/swi/phasescore/plots/PNG/phasescore_swi_HBV-SIMREG.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.76</a></td>
+                     <td><a href='assets/swi/taylorscore/plots/PNG/taylorscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.74</a></td>
+                     <td><a href='assets/swi/interannualscore/plots/PNG/interannualscore_swi_HBV-SIMREG.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.53</a></td>
+                     <td><a href='assets/swi/overallscore/plots/PNG/overallscore_swi_E2O.vs.ESA-CCI_1979-2012.png' class='fancy'>    0.59</a></td>
                   </tr>
                </table>
             </div>
+            <p><b>Notes: In calculating overall score, rmse score contributes double in comparison with all other scores. </b></p>
          </div>
       </div>
    </div>
