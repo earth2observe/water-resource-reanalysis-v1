@@ -31,4 +31,16 @@ $(document).ready(function() {
       closeEffect : 'none',
       padding  : 30
    });
+   $(".fancy-text").fancybox({
+      fitToView   : false,
+      width    : '70%',
+      height      : '70%',
+      autoSize : false,
+      closeClick  : false,
+      openEffect  : 'none',
+      closeEffect : 'none',
+      padding  : 30,
+      type : 'iframe'
+   });
+
 });
