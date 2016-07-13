@@ -1,0 +1,14 @@
+Bias (std dev) for SMA (m3/m3): Model against ESA-CCI, 2002-2012
+   No._of_DATA:  5114101.00
+         ESA-CCI    -999.00
+       MeanModel      -0.01
+    HTESSEL-CaMa       0.00
+           JULES      -0.01
+        LISFLOOD       0.00
+        ORCHIDEE      -0.01
+      PCR-GLOBWB       0.00
+     SURFEX-TRIP      -0.01
+            SWBM      -0.02
+            W3RA      -0.01
+       WaterGAP3      -0.02
+      HBV-SIMREG      -0.01

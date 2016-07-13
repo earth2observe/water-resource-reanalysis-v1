@@ -1,0 +1,14 @@
+Seasonal Cycle Score for SM: Model against ESA-CCI, 2002-2012
+   No._of_DATA:  5114101.00
+         ESA-CCI    -999.00
+       MeanModel       0.73
+    HTESSEL-CaMa       0.71
+           JULES       0.72
+        LISFLOOD       0.72
+        ORCHIDEE       0.69
+      PCR-GLOBWB       0.71
+     SURFEX-TRIP       0.71
+            SWBM       0.70
+            W3RA       0.73
+       WaterGAP3       0.70
+      HBV-SIMREG       0.75

@@ -1,0 +1,14 @@
+Overall Score for SNOWC: Model against IMS, 2004-2012
+   No._of_DATA:  23965860.00
+             IMS    -999.00
+       MeanModel       0.88
+    HTESSEL-CaMa       0.87
+           JULES       0.88
+        LISFLOOD    -999.00
+        ORCHIDEE       0.83
+      PCR-GLOBWB    -999.00
+     SURFEX-TRIP       0.89
+            SWBM    -999.00
+            W3RA       0.85
+       WaterGAP3       0.85
+      HBV-SIMREG    -999.00

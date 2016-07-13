@@ -1,0 +1,14 @@
+Taylorscore for std dev of SMA: Model against ESA-CCI
+   No._of_DATA:  5114101.00
+         ESA-CCI    -999.00
+       MeanModel       0.81
+    HTESSEL-CaMa       0.74
+           JULES       0.84
+        LISFLOOD       0.76
+        ORCHIDEE       0.73
+      PCR-GLOBWB       0.65
+     SURFEX-TRIP       0.78
+            SWBM       0.28
+            W3RA       0.80
+       WaterGAP3       0.57
+      HBV-SIMREG       0.72

@@ -1,0 +1,14 @@
+Phase Change (months) for SM: Model against ESA-CCI, 2002-2012
+   No._of_DATA:  5114101.00
+         ESA-CCI       0.00
+       MeanModel       0.03
+    HTESSEL-CaMa      -0.14
+           JULES      -0.18
+        LISFLOOD       0.30
+        ORCHIDEE       0.11
+      PCR-GLOBWB       0.09
+     SURFEX-TRIP      -0.12
+            SWBM       0.24
+            W3RA      -0.25
+       WaterGAP3      -0.34
+      HBV-SIMREG      -0.03

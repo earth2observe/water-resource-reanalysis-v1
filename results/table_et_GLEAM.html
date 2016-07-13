@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="shortcut icon" href="/../assets/ico/favicon.ico">
+   <title>eartH2Observe </title>
+   <link href="../css/bootstrap.min.css" rel="stylesheet">
+   <link href="../css/wci.css" rel="stylesheet">
+   <link href="../lib/fancybox/jquery.fancybox.css" rel="stylesheet">
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+   <![endif]-->
+</head>
+
+<body>
+   <!-- Fixed navbar -->
+   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/water-resource-reanalysis-v1">
+               <img src="../assets/images/earth2observeLogo.png" alt="eartH2Observe Water Cycle Integrator" width="250" height="73" />
+            </a>
+         </div>
+         <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="/water-resource-reanalysis-v1" id=""><b>Model Data Access &amp; Verification Home</b></a></li>
+               <li><a href="http://www.earth2observe.eu/">Main eartH2Observe website &raquo;</a></li>
+            </ul>
+         </div>
+         <!--/.nav-collapse -->
+      </div>
+   </div>
+   <div class="container content">
+      <div class="row">
+         <div class="col-lg-12">
+            <h1>Diagnostic Summary for Evapotranspiration: Model vs. GLEAM </h1>
+            <div class="table-responsive">
+               <table class="table table-bordered table-striped">
+                  <tr>
+                     <td> </td>
+                     <td colspan="4"> Global Patterns</td>
+                     <td> Regional and Seasonal Patterns</td>
+                     <td colspan="6"> Scoring (<a href='weights_et_GLEAM.html'>Info</a>)</td>
+                  </tr>
+                  <tr>
+                     <td> </td>
+                     <td><a href='plot_annualmean_et_GLEAM.html'>Annual Mean (mm/day)</a></td>
+                     <td><a href='plot_bias_et_GLEAM.html'>Bias (mm/day)</a></td>
+                     <td><a href='plot_rmse_et_GLEAM.html'>RMSE (mm/day)</a></td>
+                     <td><a href='plot_phase_et_GLEAM.html'>Phase Difference (months)</a></td>
+                     <td><a href="../assets/et/biomes/plots/PNG/map_biomes_GFED.png" class="fancy">Regional</a> Means</td>
+                     <td><a href='plot_globalbiasscore_et_GLEAM.html'>Global Bias</a></td>
+                     <td><a href='plot_rmsescore_et_GLEAM.html'>RMSE</a></td>
+                     <td><a href='plot_phasescore_et_GLEAM.html'>Seasonal Cycle</a></td>
+                     <td><a href='plot_taylorscore_et_GLEAM.html'>Spatial Distribution</a></td>
+                     <td><a href='plot_interannualscore_et_GLEAM.html'>Interannual Variability</a></td>
+                     <td><a href='plot_overallscore_et_GLEAM.html'>Overall</a></td>
+                  </tr>
+                  <tr>
+                     <td>Benchmark&nbsp;<a href='../readme/readme_et_GLEAM'> [Miralles et al. (2011)]</a></td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_GLEAM.vs.GLEAM_1980-2011.png" class="fancy">    1.31</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_GLEAM.vs.GLEAM_1980-2011.png" class="fancy">    0.00</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_E2O.html'>plots</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td>MeanModel</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_MeanModel.vs.GLEAM_1980-2011.png" class="fancy">    1.46</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_MeanModel.vs.GLEAM_1980-2011.png" class="fancy">    0.15</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_MeanModel.vs.GLEAM_1980-2011.png" class="fancy">    0.37</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_MeanModel.vs.GLEAM_1980-2011.png" class="fancy">   -0.22</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_MeanModel.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_MeanModel.vs.GLEAM_1980-2011.png" class="fancy">    0.84</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_MeanModel.vs.GLEAM_1980-2011.png" class="fancy">    0.80</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_MeanModel.vs.GLEAM_1980-2011.png" class="fancy">    0.88</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.96</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_MeanModel.vs.GLEAM_1980-2011.png" class="fancy">    0.69</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.83</a></td>
+                  </tr>
+                  <tr>
+                     <td>HTESSEL-CaMa</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_HTESSEL-CaMa.vs.GLEAM_1980-2011.png" class="fancy">    1.58</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_HTESSEL-CaMa.vs.GLEAM_1980-2011.png" class="fancy">    0.27</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_HTESSEL-CaMa.vs.GLEAM_1980-2011.png" class="fancy">    0.48</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_HTESSEL-CaMa.vs.GLEAM_1980-2011.png" class="fancy">   -0.18</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_HTESSEL-CaMa.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_HTESSEL-CaMa.vs.GLEAM_1980-2011.png" class="fancy">    0.80</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_HTESSEL-CaMa.vs.GLEAM_1980-2011.png" class="fancy">    0.76</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_HTESSEL-CaMa.vs.GLEAM_1980-2011.png" class="fancy">    0.85</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.94</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_HTESSEL-CaMa.vs.GLEAM_1980-2011.png" class="fancy">    0.69</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.80</a></td>
+                  </tr>
+                  <tr>
+                     <td>JULES</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_JULES.vs.GLEAM_1980-2011.png" class="fancy">    1.44</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_JULES.vs.GLEAM_1980-2011.png" class="fancy">    0.12</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_JULES.vs.GLEAM_1980-2011.png" class="fancy">    0.40</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_JULES.vs.GLEAM_1980-2011.png" class="fancy">   -0.32</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_JULES.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_JULES.vs.GLEAM_1980-2011.png" class="fancy">    0.83</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_JULES.vs.GLEAM_1980-2011.png" class="fancy">    0.79</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_JULES.vs.GLEAM_1980-2011.png" class="fancy">    0.84</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.95</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_JULES.vs.GLEAM_1980-2011.png" class="fancy">    0.69</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.81</a></td>
+                  </tr>
+                  <tr>
+                     <td>LISFLOOD</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_LISFLOOD.vs.GLEAM_1980-2011.png" class="fancy">    1.32</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_LISFLOOD.vs.GLEAM_1980-2011.png" class="fancy">    0.01</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_LISFLOOD.vs.GLEAM_1980-2011.png" class="fancy">    0.43</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_LISFLOOD.vs.GLEAM_1980-2011.png" class="fancy">   -0.35</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_LISFLOOD.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_LISFLOOD.vs.GLEAM_1980-2011.png" class="fancy">    0.83</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_LISFLOOD.vs.GLEAM_1980-2011.png" class="fancy">    0.77</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_LISFLOOD.vs.GLEAM_1980-2011.png" class="fancy">    0.85</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.95</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_LISFLOOD.vs.GLEAM_1980-2011.png" class="fancy">    0.70</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.81</a></td>
+                  </tr>
+                  <tr>
+                     <td>ORCHIDEE</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_ORCHIDEE.vs.GLEAM_1980-2011.png" class="fancy">    1.64</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_ORCHIDEE.vs.GLEAM_1980-2011.png" class="fancy">    0.33</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_ORCHIDEE.vs.GLEAM_1980-2011.png" class="fancy">    0.56</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_ORCHIDEE.vs.GLEAM_1980-2011.png" class="fancy">   -0.39</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_ORCHIDEE.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_ORCHIDEE.vs.GLEAM_1980-2011.png" class="fancy">    0.77</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_ORCHIDEE.vs.GLEAM_1980-2011.png" class="fancy">    0.72</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_ORCHIDEE.vs.GLEAM_1980-2011.png" class="fancy">    0.78</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.93</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_ORCHIDEE.vs.GLEAM_1980-2011.png" class="fancy">    0.66</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.76</a></td>
+                  </tr>
+                  <tr>
+                     <td>PCR-GLOBWB</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_PCR-GLOBWB.vs.GLEAM_1980-2011.png" class="fancy">    1.40</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_PCR-GLOBWB.vs.GLEAM_1980-2011.png" class="fancy">    0.09</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_PCR-GLOBWB.vs.GLEAM_1980-2011.png" class="fancy">    0.48</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_PCR-GLOBWB.vs.GLEAM_1980-2011.png" class="fancy">   -0.43</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_PCR-GLOBWB.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_PCR-GLOBWB.vs.GLEAM_1980-2011.png" class="fancy">    0.80</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_PCR-GLOBWB.vs.GLEAM_1980-2011.png" class="fancy">    0.75</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_PCR-GLOBWB.vs.GLEAM_1980-2011.png" class="fancy">    0.82</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.92</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_PCR-GLOBWB.vs.GLEAM_1980-2011.png" class="fancy">    0.65</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.78</a></td>
+                  </tr>
+                  <tr>
+                     <td>SURFEX-TRIP</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_SURFEX-TRIP.vs.GLEAM_1980-2011.png" class="fancy">    1.54</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_SURFEX-TRIP.vs.GLEAM_1980-2011.png" class="fancy">    0.23</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_SURFEX-TRIP.vs.GLEAM_1980-2011.png" class="fancy">    0.53</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_SURFEX-TRIP.vs.GLEAM_1980-2011.png" class="fancy">    0.03</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_SURFEX-TRIP.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_SURFEX-TRIP.vs.GLEAM_1980-2011.png" class="fancy">    0.81</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_SURFEX-TRIP.vs.GLEAM_1980-2011.png" class="fancy">    0.73</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_SURFEX-TRIP.vs.GLEAM_1980-2011.png" class="fancy">    0.83</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.93</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_SURFEX-TRIP.vs.GLEAM_1980-2011.png" class="fancy">    0.65</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.78</a></td>
+                  </tr>
+                  <tr>
+                     <td>SWBM</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_SWBM.vs.GLEAM_1980-2011.png" class="fancy">    1.42</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_SWBM.vs.GLEAM_1980-2011.png" class="fancy">    0.11</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_SWBM.vs.GLEAM_1980-2011.png" class="fancy">    0.45</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_SWBM.vs.GLEAM_1980-2011.png" class="fancy">   -0.10</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_SWBM.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_SWBM.vs.GLEAM_1980-2011.png" class="fancy">    0.83</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_SWBM.vs.GLEAM_1980-2011.png" class="fancy">    0.77</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_SWBM.vs.GLEAM_1980-2011.png" class="fancy">    0.86</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.95</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_SWBM.vs.GLEAM_1980-2011.png" class="fancy">    0.66</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.81</a></td>
+                  </tr>
+                  <tr>
+                     <td>W3RA</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_W3RA.vs.GLEAM_1980-2011.png" class="fancy">    1.42</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_W3RA.vs.GLEAM_1980-2011.png" class="fancy">    0.11</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_W3RA.vs.GLEAM_1980-2011.png" class="fancy">    0.43</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_W3RA.vs.GLEAM_1980-2011.png" class="fancy">    0.03</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_W3RA.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_W3RA.vs.GLEAM_1980-2011.png" class="fancy">    0.86</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_W3RA.vs.GLEAM_1980-2011.png" class="fancy">    0.78</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_W3RA.vs.GLEAM_1980-2011.png" class="fancy">    0.88</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.97</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_W3RA.vs.GLEAM_1980-2011.png" class="fancy">    0.70</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.83</a></td>
+                  </tr>
+                  <tr>
+                     <td>WaterGAP3</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_WaterGAP3.vs.GLEAM_1980-2011.png" class="fancy">    1.44</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_WaterGAP3.vs.GLEAM_1980-2011.png" class="fancy">    0.12</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_WaterGAP3.vs.GLEAM_1980-2011.png" class="fancy">    0.68</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_WaterGAP3.vs.GLEAM_1980-2011.png" class="fancy">   -0.33</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_WaterGAP3.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_WaterGAP3.vs.GLEAM_1980-2011.png" class="fancy">    0.76</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_WaterGAP3.vs.GLEAM_1980-2011.png" class="fancy">    0.66</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_WaterGAP3.vs.GLEAM_1980-2011.png" class="fancy">    0.82</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.69</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_WaterGAP3.vs.GLEAM_1980-2011.png" class="fancy">    0.61</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.70</a></td>
+                  </tr>
+                  <tr>
+                     <td>HBV-SIMREG</td>
+                     <td><a href="../assets/et/annualmean/plots/PNG/annualmean_et_HBV-SIMREG.vs.GLEAM_1980-2011.png" class="fancy">    1.45</a></td>
+                     <td><a href="../assets/et/bias/plots/PNG/bias_et_HBV-SIMREG.vs.GLEAM_1980-2011.png" class="fancy">    0.14</a></td>
+                     <td><a href="../assets/et/rmse/plots/PNG/rmse_et_HBV-SIMREG.vs.GLEAM_1980-2011.png" class="fancy">    0.48</a></td>
+                     <td><a href="../assets/et/phase/plots/PNG/phase_et_HBV-SIMREG.vs.GLEAM_1980-2011.png" class="fancy">   -0.18</a></td>
+                     <td>access to <a href='plot_subreg_et_GLEAM_HBV-SIMREG.html'>plots</a></td>
+                     <td><a href="../assets/et/globalbiasscore/plots/PNG/globalbiasscore_et_HBV-SIMREG.vs.GLEAM_1980-2011.png" class="fancy">    0.84</a></td>
+                     <td><a href="../assets/et/rmsescore/plots/PNG/rmsescore_et_HBV-SIMREG.vs.GLEAM_1980-2011.png" class="fancy">    0.75</a></td>
+                     <td><a href="../assets/et/phasescore/plots/PNG/phasescore_et_HBV-SIMREG.vs.GLEAM_1980-2011.png" class="fancy">    0.86</a></td>
+                     <td><a href="../assets/et/taylorscore/plots/PNG/taylorscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.96</a></td>
+                     <td><a href="../assets/et/interannualscore/plots/PNG/interannualscore_et_HBV-SIMREG.vs.GLEAM_1980-2011.png" class="fancy">    0.66</a></td>
+                     <td><a href="../assets/et/overallscore/plots/PNG/overallscore_et_E2O.vs.GLEAM_1980-2011.png" class="fancy">    0.80</a></td>
+                  </tr>
+               </table>
+            </div>
+            
+                     <p>Notes: In calculating overall score, rmse score contributes double in comparison with all other scores. </p>
+         </div>
+      </div>
+   </div>
+   <div class="container separator"></div>
+   <div class="container footer text-muted">
+      <div class="row">
+         <div class="col-lg-12">
+            <p>The eartH2Observe project has received funding from the European Union's Seventh Programme for research, technological development and demonstration under grant agreement No. 603608</p>
+            <p>Main project website: <a href="http://www.earth2observe.eu">www.earth2observe.eu</a></p>
+         </div>
+      </div>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script src="../js/bootstrap.min.js"></script>
+   <script src="../lib/fancybox/jquery.fancybox.pack.js"></script>
+   <script src="../js/wci.js"></script>
+</body>
+
+</html>

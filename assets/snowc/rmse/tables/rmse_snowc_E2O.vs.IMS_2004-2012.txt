@@ -1,0 +1,14 @@
+RMSE for SNOWC (snow/snow+land): Model against IMS, 2004-2012
+   No._of_DATA:  4793172.00
+             IMS    -999.00
+       MeanModel       0.04
+    HTESSEL-CaMa       0.05
+           JULES       0.05
+        LISFLOOD    -999.00
+        ORCHIDEE       0.07
+      PCR-GLOBWB    -999.00
+     SURFEX-TRIP       0.04
+            SWBM    -999.00
+            W3RA       0.06
+       WaterGAP3       0.06
+      HBV-SIMREG    -999.00

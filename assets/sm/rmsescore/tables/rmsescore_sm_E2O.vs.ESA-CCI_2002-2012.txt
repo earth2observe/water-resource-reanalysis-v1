@@ -1,0 +1,14 @@
+RMSE Score for SM: Model against ESA-CCI, 2002-2012
+   No._of_DATA:  5114101.00
+         ESA-CCI    -999.00
+       MeanModel       0.82
+    HTESSEL-CaMa       0.68
+           JULES       0.77
+        LISFLOOD       0.69
+        ORCHIDEE       0.74
+      PCR-GLOBWB       0.69
+     SURFEX-TRIP       0.74
+            SWBM       0.66
+            W3RA       0.70
+       WaterGAP3       0.72
+      HBV-SIMREG       0.51

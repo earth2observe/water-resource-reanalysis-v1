@@ -1,0 +1,14 @@
+Taylorscore for annual mean of ET: Model against GLEAM
+   No._of_DATA:  16777216.00
+           GLEAM    -999.00
+       MeanModel       0.96
+    HTESSEL-CaMa       0.94
+           JULES       0.95
+        LISFLOOD       0.95
+        ORCHIDEE       0.93
+      PCR-GLOBWB       0.92
+     SURFEX-TRIP       0.93
+            SWBM       0.95
+            W3RA       0.97
+       WaterGAP3       0.69
+      HBV-SIMREG       0.96

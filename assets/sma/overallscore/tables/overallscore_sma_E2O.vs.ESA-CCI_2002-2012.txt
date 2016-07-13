@@ -1,0 +1,14 @@
+Overall Score for SMA: Model against ESA-CCI, 2002-2012
+   No._of_DATA:  25570504.00
+         ESA-CCI    -999.00
+       MeanModel       0.57
+    HTESSEL-CaMa       0.57
+           JULES       0.57
+        LISFLOOD       0.57
+        ORCHIDEE       0.54
+      PCR-GLOBWB       0.56
+     SURFEX-TRIP       0.56
+            SWBM       0.44
+            W3RA       0.57
+       WaterGAP3       0.49
+      HBV-SIMREG       0.55

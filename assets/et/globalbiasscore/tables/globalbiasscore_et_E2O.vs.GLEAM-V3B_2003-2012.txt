@@ -1,0 +1,14 @@
+Global Bias Score for ET: Model against GLEAM-V3B, 2003-2012
+   No._of_DATA:  4697400.00
+       GLEAM-V3B    -999.00
+       MeanModel       0.86
+    HTESSEL-CaMa       0.84
+           JULES       0.84
+        LISFLOOD       0.84
+        ORCHIDEE       0.81
+      PCR-GLOBWB       0.83
+     SURFEX-TRIP       0.85
+            SWBM       0.83
+            W3RA       0.86
+       WaterGAP3       0.78
+      HBV-SIMREG       0.84

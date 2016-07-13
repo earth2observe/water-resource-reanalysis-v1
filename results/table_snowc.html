@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="shortcut icon" href="/../assets/ico/favicon.ico">
+   <title>eartH2Observe </title>
+   <link href="../css/bootstrap.min.css" rel="stylesheet">
+   <link href="../css/wci.css" rel="stylesheet">
+   <link href="../lib/fancybox/jquery.fancybox.css" rel="stylesheet">
+   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+   <![endif]-->
+</head>
+
+<body>
+   <!-- Fixed navbar -->
+   <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/water-resource-reanalysis-v1">
+               <img src="../assets/images/earth2observeLogo.png" alt="eartH2Observe Water Cycle Integrator" width="250" height="73" />
+            </a>
+         </div>
+         <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="/water-resource-reanalysis-v1" id=""><b>Model Data Access &amp; Verification Home</b></a></li>
+               <li><a href="http://www.earth2observe.eu/">Main eartH2Observe website &raquo;</a></li>
+            </ul>
+         </div>
+         <!--/.nav-collapse -->
+      </div>
+   </div>
+   <div class="container content">
+      <div class="row">
+         <div class="col-lg-12">
+            <h1>Diagnostic Summary for Snow Cover: Model vs. IMS </h1>
+            <div class="table-responsive">
+               <table class="table table-bordered table-striped">
+                  <tr>
+                     <td> </td>
+                     <td colspan="4"> Global Patterns</td>
+                     <td> Regional and Seasonal Patterns</td>
+                     <td colspan="6"> Scoring (<a href='weights_snowc_IMS.html'>Info</a>)</td>
+                  </tr>
+                  <tr>
+                     <td> </td>
+                     <td><a href='plot_annualmean_snowc.html'>Annual Mean (snow/snow+land)</a></td>
+                     <td><a href='plot_bias_snowc.html'>Bias (snow/snow+land)</a></td>
+                     <td><a href='plot_rmse_snowc.html'>RMSE (snow/snow+land)</a></td>
+                     <td><a href='plot_phase_snowc.html'>Phase Difference (months)</a></td>
+                     <td><a href="../assets/snowc/biomes/plots/PNG/map_biomes_GFED.png" class="fancy">Regional</a> Means</td>
+                     <td><a href='plot_globalbiasscore_snowc.html'>Global Bias</a></td>
+                     <td><a href='plot_rmsescore_snowc.html'>RMSE</a></td>
+                     <td><a href='plot_phasescore_snowc.html'>Seasonal Cycle</a></td>
+                     <td><a href='plot_taylorscore_snowc.html'>Spatial Distribution</a></td>
+                     <td><a href='plot_interannualscore_snowc.html'>Interannual Variability</a></td>
+                     <td><a href='plot_overallscore_snowc.html'>Overall</a></td>
+                  </tr>
+                  <tr>
+                     <td>Benchmark&nbsp;<a href='../readme/readme_snowc_IMS'> [Helfrich et al. (2007)]</a></td>
+                     <td><a href="../assets/snowc/annualmean/plots/PNG/annualmean_snowc_IMS.vs.IMS_2004-2012.png" class="fancy">    0.16</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td><a href="../assets/snowc/phase/plots/PNG/phase_snowc_IMS.vs.IMS_2004-2012.png" class="fancy">    0.00</a></td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_E2O.html'>plots</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td>MeanModel</td>
+                     <td><a href="../assets/snowc/annualmean/plots/PNG/annualmean_snowc_MeanModel.vs.IMS_2004-2012.png" class="fancy">    0.14</a></td>
+                     <td><a href="../assets/snowc/bias/plots/PNG/bias_snowc_MeanModel.vs.IMS_2004-2012.png" class="fancy">   -0.01</a></td>
+                     <td><a href="../assets/snowc/rmse/plots/PNG/rmse_snowc_MeanModel.vs.IMS_2004-2012.png" class="fancy">    0.04</a></td>
+                     <td><a href="../assets/snowc/phase/plots/PNG/phase_snowc_MeanModel.vs.IMS_2004-2012.png" class="fancy">    0.27</a></td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_MeanModel.html'>plots</a></td>
+                     <td><a href="../assets/snowc/globalbiasscore/plots/PNG/globalbiasscore_snowc_MeanModel.vs.IMS_2004-2012.png" class="fancy">    0.88</a></td>
+                     <td><a href="../assets/snowc/rmsescore/plots/PNG/rmsescore_snowc_MeanModel.vs.IMS_2004-2012.png" class="fancy">    0.84</a></td>
+                     <td><a href="../assets/snowc/phasescore/plots/PNG/phasescore_snowc_MeanModel.vs.IMS_2004-2012.png" class="fancy">    0.95</a></td>
+                     <td><a href="../assets/snowc/taylorscore/plots/PNG/taylorscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.98</a></td>
+                     <td><a href="../assets/snowc/interannualscore/plots/PNG/interannualscore_snowc_MeanModel.vs.IMS_2004-2012.png" class="fancy">    0.77</a></td>
+                     <td><a href="../assets/snowc/overallscore/plots/PNG/overallscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.88</a></td>
+                  </tr>
+                  <tr>
+                     <td>HTESSEL-CaMa</td>
+                     <td><a href="../assets/snowc/annualmean/plots/PNG/annualmean_snowc_HTESSEL-CaMa.vs.IMS_2004-2012.png" class="fancy">    0.14</a></td>
+                     <td><a href="../assets/snowc/bias/plots/PNG/bias_snowc_HTESSEL-CaMa.vs.IMS_2004-2012.png" class="fancy">   -0.02</a></td>
+                     <td><a href="../assets/snowc/rmse/plots/PNG/rmse_snowc_HTESSEL-CaMa.vs.IMS_2004-2012.png" class="fancy">    0.05</a></td>
+                     <td><a href="../assets/snowc/phase/plots/PNG/phase_snowc_HTESSEL-CaMa.vs.IMS_2004-2012.png" class="fancy">    0.07</a></td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_HTESSEL-CaMa.html'>plots</a></td>
+                     <td><a href="../assets/snowc/globalbiasscore/plots/PNG/globalbiasscore_snowc_HTESSEL-CaMa.vs.IMS_2004-2012.png" class="fancy">    0.88</a></td>
+                     <td><a href="../assets/snowc/rmsescore/plots/PNG/rmsescore_snowc_HTESSEL-CaMa.vs.IMS_2004-2012.png" class="fancy">    0.83</a></td>
+                     <td><a href="../assets/snowc/phasescore/plots/PNG/phasescore_snowc_HTESSEL-CaMa.vs.IMS_2004-2012.png" class="fancy">    0.97</a></td>
+                     <td><a href="../assets/snowc/taylorscore/plots/PNG/taylorscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.98</a></td>
+                     <td><a href="../assets/snowc/interannualscore/plots/PNG/interannualscore_snowc_HTESSEL-CaMa.vs.IMS_2004-2012.png" class="fancy">    0.74</a></td>
+                     <td><a href="../assets/snowc/overallscore/plots/PNG/overallscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.87</a></td>
+                  </tr>
+                  <tr>
+                     <td>JULES</td>
+                     <td><a href="../assets/snowc/annualmean/plots/PNG/annualmean_snowc_JULES.vs.IMS_2004-2012.png" class="fancy">    0.16</a></td>
+                     <td><a href="../assets/snowc/bias/plots/PNG/bias_snowc_JULES.vs.IMS_2004-2012.png" class="fancy">    0.00</a></td>
+                     <td><a href="../assets/snowc/rmse/plots/PNG/rmse_snowc_JULES.vs.IMS_2004-2012.png" class="fancy">    0.05</a></td>
+                     <td><a href="../assets/snowc/phase/plots/PNG/phase_snowc_JULES.vs.IMS_2004-2012.png" class="fancy">   -0.03</a></td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_JULES.html'>plots</a></td>
+                     <td><a href="../assets/snowc/globalbiasscore/plots/PNG/globalbiasscore_snowc_JULES.vs.IMS_2004-2012.png" class="fancy">    0.90</a></td>
+                     <td><a href="../assets/snowc/rmsescore/plots/PNG/rmsescore_snowc_JULES.vs.IMS_2004-2012.png" class="fancy">    0.83</a></td>
+                     <td><a href="../assets/snowc/phasescore/plots/PNG/phasescore_snowc_JULES.vs.IMS_2004-2012.png" class="fancy">    0.97</a></td>
+                     <td><a href="../assets/snowc/taylorscore/plots/PNG/taylorscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.98</a></td>
+                     <td><a href="../assets/snowc/interannualscore/plots/PNG/interannualscore_snowc_JULES.vs.IMS_2004-2012.png" class="fancy">    0.76</a></td>
+                     <td><a href="../assets/snowc/overallscore/plots/PNG/overallscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.88</a></td>
+                  </tr>
+                  <tr>
+                     <td>LISFLOOD</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_LISFLOOD.html'>plots</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td>ORCHIDEE</td>
+                     <td><a href="../assets/snowc/annualmean/plots/PNG/annualmean_snowc_ORCHIDEE.vs.IMS_2004-2012.png" class="fancy">    0.13</a></td>
+                     <td><a href="../assets/snowc/bias/plots/PNG/bias_snowc_ORCHIDEE.vs.IMS_2004-2012.png" class="fancy">   -0.03</a></td>
+                     <td><a href="../assets/snowc/rmse/plots/PNG/rmse_snowc_ORCHIDEE.vs.IMS_2004-2012.png" class="fancy">    0.07</a></td>
+                     <td><a href="../assets/snowc/phase/plots/PNG/phase_snowc_ORCHIDEE.vs.IMS_2004-2012.png" class="fancy">    0.10</a></td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_ORCHIDEE.html'>plots</a></td>
+                     <td><a href="../assets/snowc/globalbiasscore/plots/PNG/globalbiasscore_snowc_ORCHIDEE.vs.IMS_2004-2012.png" class="fancy">    0.82</a></td>
+                     <td><a href="../assets/snowc/rmsescore/plots/PNG/rmsescore_snowc_ORCHIDEE.vs.IMS_2004-2012.png" class="fancy">    0.75</a></td>
+                     <td><a href="../assets/snowc/phasescore/plots/PNG/phasescore_snowc_ORCHIDEE.vs.IMS_2004-2012.png" class="fancy">    0.95</a></td>
+                     <td><a href="../assets/snowc/taylorscore/plots/PNG/taylorscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.97</a></td>
+                     <td><a href="../assets/snowc/interannualscore/plots/PNG/interannualscore_snowc_ORCHIDEE.vs.IMS_2004-2012.png" class="fancy">    0.74</a></td>
+                     <td><a href="../assets/snowc/overallscore/plots/PNG/overallscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.83</a></td>
+                  </tr>
+                  <tr>
+                     <td>PCR-GLOBWB</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_PCR-GLOBWB.html'>plots</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td>SURFEX-TRIP</td>
+                     <td><a href="../assets/snowc/annualmean/plots/PNG/annualmean_snowc_SURFEX-TRIP.vs.IMS_2004-2012.png" class="fancy">    0.15</a></td>
+                     <td><a href="../assets/snowc/bias/plots/PNG/bias_snowc_SURFEX-TRIP.vs.IMS_2004-2012.png" class="fancy">   -0.01</a></td>
+                     <td><a href="../assets/snowc/rmse/plots/PNG/rmse_snowc_SURFEX-TRIP.vs.IMS_2004-2012.png" class="fancy">    0.04</a></td>
+                     <td><a href="../assets/snowc/phase/plots/PNG/phase_snowc_SURFEX-TRIP.vs.IMS_2004-2012.png" class="fancy">    0.02</a></td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_SURFEX-TRIP.html'>plots</a></td>
+                     <td><a href="../assets/snowc/globalbiasscore/plots/PNG/globalbiasscore_snowc_SURFEX-TRIP.vs.IMS_2004-2012.png" class="fancy">    0.90</a></td>
+                     <td><a href="../assets/snowc/rmsescore/plots/PNG/rmsescore_snowc_SURFEX-TRIP.vs.IMS_2004-2012.png" class="fancy">    0.84</a></td>
+                     <td><a href="../assets/snowc/phasescore/plots/PNG/phasescore_snowc_SURFEX-TRIP.vs.IMS_2004-2012.png" class="fancy">    0.98</a></td>
+                     <td><a href="../assets/snowc/taylorscore/plots/PNG/taylorscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.99</a></td>
+                     <td><a href="../assets/snowc/interannualscore/plots/PNG/interannualscore_snowc_SURFEX-TRIP.vs.IMS_2004-2012.png" class="fancy">    0.77</a></td>
+                     <td><a href="../assets/snowc/overallscore/plots/PNG/overallscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.89</a></td>
+                  </tr>
+                  <tr>
+                     <td>SWBM</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_SWBM.html'>plots</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                  </tr>
+                  <tr>
+                     <td>W3RA</td>
+                     <td><a href="../assets/snowc/annualmean/plots/PNG/annualmean_snowc_W3RA.vs.IMS_2004-2012.png" class="fancy">    0.13</a></td>
+                     <td><a href="../assets/snowc/bias/plots/PNG/bias_snowc_W3RA.vs.IMS_2004-2012.png" class="fancy">   -0.02</a></td>
+                     <td><a href="../assets/snowc/rmse/plots/PNG/rmse_snowc_W3RA.vs.IMS_2004-2012.png" class="fancy">    0.06</a></td>
+                     <td><a href="../assets/snowc/phase/plots/PNG/phase_snowc_W3RA.vs.IMS_2004-2012.png" class="fancy">    0.27</a></td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_W3RA.html'>plots</a></td>
+                     <td><a href="../assets/snowc/globalbiasscore/plots/PNG/globalbiasscore_snowc_W3RA.vs.IMS_2004-2012.png" class="fancy">    0.85</a></td>
+                     <td><a href="../assets/snowc/rmsescore/plots/PNG/rmsescore_snowc_W3RA.vs.IMS_2004-2012.png" class="fancy">    0.80</a></td>
+                     <td><a href="../assets/snowc/phasescore/plots/PNG/phasescore_snowc_W3RA.vs.IMS_2004-2012.png" class="fancy">    0.95</a></td>
+                     <td><a href="../assets/snowc/taylorscore/plots/PNG/taylorscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.97</a></td>
+                     <td><a href="../assets/snowc/interannualscore/plots/PNG/interannualscore_snowc_W3RA.vs.IMS_2004-2012.png" class="fancy">    0.71</a></td>
+                     <td><a href="../assets/snowc/overallscore/plots/PNG/overallscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.85</a></td>
+                  </tr>
+                  <tr>
+                     <td>WaterGAP3</td>
+                     <td><a href="../assets/snowc/annualmean/plots/PNG/annualmean_snowc_WaterGAP3.vs.IMS_2004-2012.png" class="fancy">    0.15</a></td>
+                     <td><a href="../assets/snowc/bias/plots/PNG/bias_snowc_WaterGAP3.vs.IMS_2004-2012.png" class="fancy">   -0.01</a></td>
+                     <td><a href="../assets/snowc/rmse/plots/PNG/rmse_snowc_WaterGAP3.vs.IMS_2004-2012.png" class="fancy">    0.06</a></td>
+                     <td><a href="../assets/snowc/phase/plots/PNG/phase_snowc_WaterGAP3.vs.IMS_2004-2012.png" class="fancy">   -0.07</a></td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_WaterGAP3.html'>plots</a></td>
+                     <td><a href="../assets/snowc/globalbiasscore/plots/PNG/globalbiasscore_snowc_WaterGAP3.vs.IMS_2004-2012.png" class="fancy">    0.84</a></td>
+                     <td><a href="../assets/snowc/rmsescore/plots/PNG/rmsescore_snowc_WaterGAP3.vs.IMS_2004-2012.png" class="fancy">    0.80</a></td>
+                     <td><a href="../assets/snowc/phasescore/plots/PNG/phasescore_snowc_WaterGAP3.vs.IMS_2004-2012.png" class="fancy">    0.98</a></td>
+                     <td><a href="../assets/snowc/taylorscore/plots/PNG/taylorscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.96</a></td>
+                     <td><a href="../assets/snowc/interannualscore/plots/PNG/interannualscore_snowc_WaterGAP3.vs.IMS_2004-2012.png" class="fancy">    0.73</a></td>
+                     <td><a href="../assets/snowc/overallscore/plots/PNG/overallscore_snowc_E2O.vs.IMS_2004-2012.png" class="fancy">    0.85</a></td>
+                  </tr>
+                  <tr>
+                     <td>HBV-SIMREG</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>access to <a href='plot_subreg_snowc_IMS_HBV-SIMREG.html'>plots</a></td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                     <td>-</td>
+                  </tr>
+               </table>
+            </div>
+            
+                     <p>Notes: In calculating overall score, rmse score contributes double in comparison with all other scores. </p>
+         </div>
+      </div>
+   </div>
+   <div class="container separator"></div>
+   <div class="container footer text-muted">
+      <div class="row">
+         <div class="col-lg-12">
+            <p>The eartH2Observe project has received funding from the European Union's Seventh Programme for research, technological development and demonstration under grant agreement No. 603608</p>
+            <p>Main project website: <a href="http://www.earth2observe.eu">www.earth2observe.eu</a></p>
+         </div>
+      </div>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <script src="../js/bootstrap.min.js"></script>
+   <script src="../lib/fancybox/jquery.fancybox.pack.js"></script>
+   <script src="../js/wci.js"></script>
+</body>
+
+</html>

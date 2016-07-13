@@ -1,0 +1,158 @@
+body {
+   font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+   height: auto;
+}
+
+.container.banner {
+   width: 100%;
+   background: url('../assets/images/home_banner.png') no-repeat top center;
+   background-size: auto 600px;
+   margin-top: 80px;
+   height: 300px;
+   margin-bottom: 30px;
+   border-bottom: 1px solid #ccc;
+   background-attachment: fixed;
+}
+
+@media (min-width: 1280px) {
+   .container.banner {
+      background-size: 100% auto;
+   }
+}
+
+#welcome .col-xs-6,
+#welcome .col-lg-4 {
+   text-align: right;
+   padding-top: 40px;
+}
+
+.container.separator {
+   width: 100%;
+   margin: 20px 0px;
+   border-bottom: 1px solid #eee;
+}
+
+.container.footer {
+   margin: 80px auto 250px auto;
+}
+
+.bs-callout {
+   margin: 20px 0;
+   padding: 20px;
+   border-left: 3px solid #eee;
+}
+
+.bs-callout-info {
+   background-color: #f4f8fa;
+   border-color: #5bc0de;
+}
+
+.bs-callout h4 {
+   margin-top: 0;
+   margin-bottom: 5px;
+}
+
+.bs-callout-info h4 {
+   color: #5bc0de;
+}
+
+a.top-link {
+   -webkit-transform: rotate(270deg);
+   -moz-transform: rotate(270deg);
+   -o-transform: rotate(270deg);
+   writing-mode: lr-tb;
+   display: block;
+   width: 20px;
+   height: 20px;
+   font-size: 33px;
+   float: right;
+   color: #ccc;
+}
+
+a:hover.top-link {
+   color: #999;
+   text-decoration: none;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+   font-size: 28px;
+   line-height: 50px;
+}
+
+.icontitle {
+   font-weight: bold;
+   margin-left: 10px;
+}
+
+.button-row div {
+   padding-bottom: 10px;
+}
+
+li {
+   list-style-type: square;
+}
+
+.content {
+   margin-top: 110px;
+}
+
+
+/***** MODAL PROPERTIES *****/
+
+.modal-content {
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   background: transparent;
+   border: none;
+   outline: none;
+}
+
+.modal-content iframe {
+   border: none;
+   padding: 0;
+   margin: 0;
+}
+
+.close {
+   font-size: 80px;
+   margin: -20px 0 0 0;
+}
+
+
+/***** MEDIA QUERIES *****/
+
+@media only screen and (max-width: 641px) {
+   /***** MODAL PROPERTIES *****/
+   .modal-body {
+      height: 100px;
+      padding: 0;
+      margin: 0;
+   }
+   .modal-content {
+      padding: 0;
+      margin: 0;
+   }
+   .modal-dialog {
+      position: relative;
+      width: auto;
+      margin: 15px;
+   }
+   .close {
+      margin: -12px 0 0 0;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+   /***** MODAL PROPERTIES *****/
+   .close {
+      font-size: 80px;
+      margin: 30px -43px -20px 100px;
+   }
+   .modal-dialog {
+      width: 853px;
+   }
+}

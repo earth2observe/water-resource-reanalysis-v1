@@ -1,0 +1,14 @@
+Global Bias Score for SWE: Model against GlobSnow, 1980-2012
+   No._of_DATA:  8731183.00
+        GLOBSNOW    -999.00
+       MeanModel       0.74
+    HTESSEL-CaMa       0.73
+           JULES       0.67
+        LISFLOOD       0.70
+        ORCHIDEE       0.62
+      PCR-GLOBWB       0.72
+     SURFEX-TRIP       0.73
+            SWBM       0.58
+            W3RA       0.75
+       WaterGAP3       0.70
+      HBV-SIMREG       0.55

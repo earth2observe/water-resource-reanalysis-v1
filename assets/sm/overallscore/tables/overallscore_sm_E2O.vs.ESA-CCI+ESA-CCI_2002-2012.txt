@@ -1,0 +1,14 @@
+Overall Score for SM against ESA-CCI+ESA-CCI
+   No._of_DATA:  51141008.00
+       Benchmark    -999.00
+       MeanModel       0.80
+    HTESSEL-CaMa       0.67
+           JULES       0.76
+        LISFLOOD       0.69
+        ORCHIDEE       0.72
+      PCR-GLOBWB       0.67
+     SURFEX-TRIP       0.74
+            SWBM       0.67
+            W3RA       0.69
+       WaterGAP3       0.69
+      HBV-SIMREG       0.59

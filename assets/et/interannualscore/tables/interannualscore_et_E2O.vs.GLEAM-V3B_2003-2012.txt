@@ -1,0 +1,14 @@
+Interannual Variability Score for ET: Model against GLEAM-V3B, 2003-2012
+   No._of_DATA:  4697400.00
+       GLEAM-V3B    -999.00
+       MeanModel       0.69
+    HTESSEL-CaMa       0.66
+           JULES       0.70
+        LISFLOOD       0.69
+        ORCHIDEE       0.67
+      PCR-GLOBWB       0.65
+     SURFEX-TRIP       0.61
+            SWBM       0.69
+            W3RA       0.66
+       WaterGAP3       0.58
+      HBV-SIMREG       0.64

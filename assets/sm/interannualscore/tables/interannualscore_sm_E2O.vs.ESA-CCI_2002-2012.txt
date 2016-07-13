@@ -1,0 +1,14 @@
+Interannual Variability Score for SM: Model against ESA-CCI, 2002-2012
+   No._of_DATA:  5114101.00
+         ESA-CCI    -999.00
+       MeanModel       0.63
+    HTESSEL-CaMa       0.63
+           JULES       0.64
+        LISFLOOD       0.60
+        ORCHIDEE       0.56
+      PCR-GLOBWB       0.56
+     SURFEX-TRIP       0.63
+            SWBM       0.51
+            W3RA       0.57
+       WaterGAP3       0.49
+      HBV-SIMREG       0.56

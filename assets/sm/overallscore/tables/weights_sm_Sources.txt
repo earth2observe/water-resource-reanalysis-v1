@@ -1,0 +1,4 @@
+Contributions from benchmark sources for the variable SM against ESA-CCI+ESA-CCI
+                                 Benchmark Sources          Weights
+                                          ESA-CCI:               10
+                                          ESA-CCI:               10

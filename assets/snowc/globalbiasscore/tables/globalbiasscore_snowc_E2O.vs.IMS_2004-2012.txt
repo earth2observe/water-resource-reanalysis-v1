@@ -1,0 +1,14 @@
+Global Bias Score for SNOWC: Model against IMS, 2004-2012
+   No._of_DATA:  4793172.00
+             IMS    -999.00
+       MeanModel       0.88
+    HTESSEL-CaMa       0.88
+           JULES       0.90
+        LISFLOOD    -999.00
+        ORCHIDEE       0.82
+      PCR-GLOBWB    -999.00
+     SURFEX-TRIP       0.90
+            SWBM    -999.00
+            W3RA       0.85
+       WaterGAP3       0.84
+      HBV-SIMREG    -999.00
