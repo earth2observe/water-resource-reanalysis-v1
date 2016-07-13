@@ -1,7 +1,0 @@
-Contributions from categories 
-                          category          Weights
-       Ecosystem and Carbon Cycle:                0
-                  Hydrology Cycle:               30
-       Radiation and Energy Cycle:                0
-                         Forcings:                0
-                           Others:                0
