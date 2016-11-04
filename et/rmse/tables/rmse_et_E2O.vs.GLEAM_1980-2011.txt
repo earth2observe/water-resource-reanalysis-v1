@@ -1,0 +1,14 @@
+RMSE for ET (mm/day): Model against GLEAM, 1980-2011
+   No._of_DATA:  16777216.00
+           GLEAM    -999.00
+       MeanModel       0.37
+    HTESSEL-CaMa       0.48
+           JULES       0.40
+        LISFLOOD       0.43
+        ORCHIDEE       0.56
+      PCR-GLOBWB       0.48
+     SURFEX-TRIP       0.53
+            SWBM       0.45
+            W3RA       0.43
+       WaterGAP3       0.68
+      HBV-SIMREG       0.48

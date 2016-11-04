@@ -1,0 +1,7 @@
+Contributions from scoring metrics for Overall Score for the variable TWSA against GRACE
+                         KayeWords          Weights
+                Global Bias Score:                1
+       Spatial Distribution Score:                1
+             Seasonal Cycle Score:                1
+                       RMSE Score:                1
+    Interannual Variability Score:                1

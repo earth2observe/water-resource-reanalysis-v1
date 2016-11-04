@@ -1,0 +1,14 @@
+Phase Change (months) for SWE: Model against GlobSnow, 1980-2012
+   No._of_DATA:  8731183.00
+        GlobSnow       0.00
+       MeanModel       0.68
+    HTESSEL-CaMa       0.52
+           JULES       0.32
+        LISFLOOD       0.90
+        ORCHIDEE      -0.19
+      PCR-GLOBWB       0.90
+     SURFEX-TRIP       0.53
+            SWBM       0.88
+            W3RA       0.75
+       WaterGAP3       0.77
+      HBV-SIMREG       1.02

@@ -1,0 +1,14 @@
+Overall Score for ET: Model against MODIS, 2000-2012
+   No._of_DATA:  39531780.00
+           MODIS    -999.00
+       MeanModel       0.78
+    HTESSEL-CaMa       0.77
+           JULES       0.77
+        LISFLOOD       0.77
+        ORCHIDEE       0.75
+      PCR-GLOBWB       0.77
+     SURFEX-TRIP       0.75
+            SWBM       0.75
+            W3RA       0.76
+       WaterGAP3       0.68
+      HBV-SIMREG       0.75

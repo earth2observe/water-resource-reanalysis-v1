@@ -1,0 +1,7 @@
+Contributions from scoring metrics for Overall Score for the variable SNOWC against IMS
+                         KayeWords          Weights
+                       RMSE Score:                2
+       Spatial Distribution Score:                1
+             Seasonal Cycle Score:                1
+                Global Bias Score:                1
+    Interannual Variability Score:                1

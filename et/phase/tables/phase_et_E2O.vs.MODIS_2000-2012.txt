@@ -1,0 +1,14 @@
+Phase Change (months) for ET: Model against MODIS, 2000-2012
+   No._of_DATA:  7906356.00
+           MODIS       0.00
+       MeanModel      -0.17
+    HTESSEL-CaMa      -0.16
+           JULES      -0.17
+        LISFLOOD      -0.32
+        ORCHIDEE      -0.23
+      PCR-GLOBWB      -0.27
+     SURFEX-TRIP       0.08
+            SWBM      -0.05
+            W3RA      -0.25
+       WaterGAP3      -0.54
+      HBV-SIMREG      -0.19

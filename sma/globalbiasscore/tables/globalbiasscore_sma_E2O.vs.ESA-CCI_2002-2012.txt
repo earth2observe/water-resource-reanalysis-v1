@@ -1,0 +1,14 @@
+Global Bias Score (std-dev) for SMA: Model against ESA-CCI, 2002-2012
+   No._of_DATA:  5114101.00
+         ESA-CCI    -999.00
+       MeanModel       0.63
+    HTESSEL-CaMa       0.72
+           JULES       0.67
+        LISFLOOD       0.72
+        ORCHIDEE       0.61
+      PCR-GLOBWB       0.68
+     SURFEX-TRIP       0.65
+            SWBM       0.47
+            W3RA       0.62
+       WaterGAP3       0.52
+      HBV-SIMREG       0.58

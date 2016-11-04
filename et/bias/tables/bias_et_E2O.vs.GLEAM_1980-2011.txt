@@ -1,0 +1,14 @@
+Bias for ET (mm/day): Model against GLEAM, 1980-2011
+   No._of_DATA:  16777216.00
+           GLEAM    -999.00
+       MeanModel       0.15
+    HTESSEL-CaMa       0.27
+           JULES       0.12
+        LISFLOOD       0.01
+        ORCHIDEE       0.33
+      PCR-GLOBWB       0.09
+     SURFEX-TRIP       0.23
+            SWBM       0.11
+            W3RA       0.11
+       WaterGAP3       0.12
+      HBV-SIMREG       0.14

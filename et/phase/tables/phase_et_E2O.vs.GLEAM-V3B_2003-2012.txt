@@ -1,0 +1,14 @@
+Phase Change (months) for ET: Model against GLEAM-V3B, 2003-2012
+   No._of_DATA:  4697400.00
+       GLEAM-V3B       0.00
+       MeanModel      -0.06
+    HTESSEL-CaMa      -0.10
+           JULES      -0.27
+        LISFLOOD      -0.21
+        ORCHIDEE      -0.22
+      PCR-GLOBWB      -0.52
+     SURFEX-TRIP       0.25
+            SWBM       0.11
+            W3RA       0.13
+       WaterGAP3      -0.19
+      HBV-SIMREG       0.16

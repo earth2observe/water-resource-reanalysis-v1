@@ -1,0 +1,14 @@
+RMSE Score for ET: Model against GLEAM-V3B, 2003-2012
+   No._of_DATA:  4697400.00
+       GLEAM-V3B    -999.00
+       MeanModel       0.83
+    HTESSEL-CaMa       0.80
+           JULES       0.80
+        LISFLOOD       0.79
+        ORCHIDEE       0.76
+      PCR-GLOBWB       0.78
+     SURFEX-TRIP       0.78
+            SWBM       0.76
+            W3RA       0.82
+       WaterGAP3       0.69
+      HBV-SIMREG       0.78

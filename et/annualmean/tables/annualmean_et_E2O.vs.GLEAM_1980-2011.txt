@@ -1,0 +1,14 @@
+Annual Mean for ET (mm/day): Model against GLEAM, 1980-2011
+   No._of_DATA:  16777216.00
+           GLEAM       1.31
+       MeanModel       1.46
+    HTESSEL-CaMa       1.58
+           JULES       1.44
+        LISFLOOD       1.32
+        ORCHIDEE       1.64
+      PCR-GLOBWB       1.40
+     SURFEX-TRIP       1.54
+            SWBM       1.42
+            W3RA       1.42
+       WaterGAP3       1.44
+      HBV-SIMREG       1.45

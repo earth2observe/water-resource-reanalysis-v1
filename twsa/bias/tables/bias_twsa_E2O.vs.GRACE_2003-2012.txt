@@ -1,0 +1,14 @@
+Bias (std-dev) for TWSA (cm): Model against GRACE, 2003-2012
+   No._of_DATA:  7400365.00
+           GRACE    -999.00
+       MeanModel      -1.17
+    HTESSEL-CaMa      -0.28
+           JULES      -1.76
+        LISFLOOD      -2.13
+        ORCHIDEE      -0.78
+      PCR-GLOBWB       1.98
+     SURFEX-TRIP       1.50
+            SWBM       0.68
+            W3RA      -0.54
+       WaterGAP3      -4.09
+      HBV-SIMREG      -1.09

@@ -1,0 +1,14 @@
+RMSE for ET (mm/day): Model against GLEAM-V3B, 2003-2012
+   No._of_DATA:  4697400.00
+       GLEAM-V3B    -999.00
+       MeanModel       0.30
+    HTESSEL-CaMa       0.36
+           JULES       0.35
+        LISFLOOD       0.37
+        ORCHIDEE       0.44
+      PCR-GLOBWB       0.39
+     SURFEX-TRIP       0.39
+            SWBM       0.43
+            W3RA       0.32
+       WaterGAP3       0.58
+      HBV-SIMREG       0.39
