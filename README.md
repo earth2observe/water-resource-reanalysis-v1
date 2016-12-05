@@ -1,3 +1,3 @@
-[![DOI](https://zenodo.org/badge/19937/earth2observe/water-resource-reanalysis-v1.svg)](https://zenodo.org/badge/latestdoi/19937/earth2observe/water-resource-reanalysis-v1)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.167070.svg)](https://doi.org/10.5281/zenodo.167070)
 
 View this site at http://earth2observe.github.io/water-resource-reanalysis-v1
