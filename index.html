@@ -55,15 +55,16 @@
    atmospheric reanalysis.   This  release is meant to set a benchmark dataset for future testing. A description of the multi model ensemble can be found in
                <a href="http://earth2observe.eu/files/Public%20Deliverables/D5.1_Report%20on%20the%20WRR1%20tier1.pdf">earth2observe deliverable 5.1</a>
 
-               and  < href="http://www.earth-syst-sci-data-discuss.net/essd-2016-55/">Schellekens et. al. (under discussion)</a>.
+               and  < href="https://essd.copernicus.org/articles/9/389/2017/">Schellekens et. al. (2017)</a>.
                </p>
             <p>
-             Jaap Schellekens, Emanuel Dutra, Gianpaolo Balsamo, Albert van Dijk, Frederiek Sperna Weiland,
-Marie Minvielle, Jean-Christophe Calvet, Bertrand Decharme, Stephanie Eisner, Gabriel Fink,
-Martina Flörke, Stefanie Peßenteiner, Rens van Beek, Jan Polcher, Hylke Beck,
-Alberto Martínez-de la Torre, René Orth, Ben Calton, Sophia Burke, Wouter Dorigo and Graham P. Weedon (in press in ESSD).
-               <em> A global water resources ensemble of hydrological models: the eartH2Observe Tier-1 dataset
-</em></p>
+             Schellekens, J., Dutra, E., la Torre, A.M., Balsamo, G., van Dijk, A., Weiland, F.S., Minvielle, M., Calvet, J.-C., Decharme, B., Eisner, S., 2017. A global water resources ensemble of hydrological models: The eartH2Observe Tier-1 dataset. Earth System Science Data 9, 389–413.
+</p>
+
+<p>
+   
+   </p>
+</p>
 </p>
          </div>
       </div>
@@ -94,142 +95,81 @@ Alberto Martínez-de la Torre, René Orth, Ben Calton, Sophia Burke, Wouter Dori
             <h4>Data Access Methods</h4>
             <p>All of the WRR1 model data is available for download by a number of methods:</p>
             <ul>
-               <li><b>WCI Portal View</b> - this tool offers a method to explore the data visually; you can also analyse, extract and download data for specific regions using this tool.</li>
+               <li><b>WCI Portal View (NA at the moment!)</b> - this tool offers a method to explore the data visually; you can also analyse, extract and download data for specific regions using this tool.</li>
                <li><b>Individual &amp; Aggregated Files</b> - access to the daily and monthly files using
                   <acronym title="Thematic Real-Time Environmental Distributed Data Services">THREDDS</acronym> via these protocols:
                   <ul>
-                     <li>Web Map Service (WMS)</li>
-                     <li>Web Coverage Service (WCS)</li>
                      <li>Opendap</li>
                      <li>HTTP Download</li>
                   </ul>
                </li>
-               <li><b>FTP Download</b> - guest read-only FTP acess is available using the following credentials:
-                  <ul>
-                     <li>Username: e2o_guest</li>
-                     <li>Password: oowee3WeifuY1aeb</li>
-                  </ul>
-            </ul>
+
             <h3>WRR1 Model Outputs</h3>
             <div class="table-responsive">
                <table class="table table-bordered table-striped">
                   <tr>
                      <th>Model Name</th>
                      <th>Provider Organisation</th>
-                     <th>WCI Portal View</th>
+
                      <th>Individual Files</th>
-                     <th>Aggregated Files *</th>
-                     <th>FTP</th>
+
+
                   </tr>
                   <tr>
                      <td>HTESSEL</td>
                      <td>European Centre for Medium-Range Weather Forecasts (ECMWF)</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/wrr1-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
+
                      <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/ecmwf/wrr1/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ecmwf-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ecmwf-wrr1-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/ecmwf/wrr1/" target="_blank">FTP</a></td>
+
                   </tr>
                   <tr>
                      <td>JULES</td>
                      <td>Centre for Ecology and Hydrology (CEH)</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ceh/wrr1-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ceh/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/ceh/wrr1/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ceh-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=ceh-wrr1-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/ceh/wrr1/" target="_blank">FTP</a></td>
+
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/ceh/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+
                   </tr>
                   <tr>
                      <td>LISFLOOD</td>
                      <td>Joint Research Centre (JRC)</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/jrc/wrr1-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/jrc/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/jrc/wrr1/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=jrc-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=jrc-wrr1-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/jrc/wrr1/" target="_blank">FTP</a></td>
+
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/jrc/wrr1/catalog.html" target="_blank">Catalogue</a></td>
+
                   </tr>
                   <tr>
                      <td>ORCHIDEE</td>
                      <td>Centre National de la Recherche Scientifique (CNRS)</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/cnrs/wrr1-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/cnrs/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/cnrs/wrr1/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=cnrs-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=cnrs-wrr1-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/cnrs/wrr1/" target="_blank">FTP</a></td>
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/cnrs/wrr1/catalog.html" target="_blank">Catalogue</a></td>
                   </tr>
                   <tr>
                      <td>PCR-GLOBWB</td>
                      <td>Universiteit Utrecht (UU)</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/uu/wrr1-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/uu/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/uu/wrr1/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=uu-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=uu-wrr1-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/uu/wrr1/" target="_blank">FTP</a></td>
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/uu/wrr1/catalog.html" target="_blank">Catalogue</a></td>
                   </tr>
                   <tr>
                      <td>SURFEX-TRIP</td>
                      <td>Meteo France</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/metfr/wrr1-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/metfr/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/metfr/wrr1/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=metfr-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=metfr-wrr1-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/metfr/wrr1/" target="_blank">FTP</a></td>
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/metfr/wrr1/catalog.html" target="_blank">Catalogue</a></td>
                   </tr>
                   <tr>
                      <td>SWBM</td>
                      <td>Eidgenössische Technische Hochschule (ETH)</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/eth/wrr1-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/eth/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/eth/wrr1/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=eth-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=eth-wrr1-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/eth/wrr1/" target="_blank">FTP</a></td>
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/eth/wrr1/catalog.html" target="_blank">Catalogue</a></td>
                   </tr>
                   <tr>
                      <td>W3RA</td>
                      <td>Commonwealth Scientific and Industrial Research Organisation (CSIRO)</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/csiro/wrr1-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/csiro/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/csiro/wrr1/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=csiro-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=csiro-wrr1-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/csiro/wrr1/" target="_blank">FTP</a></td>
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/csiro/wrr1/catalog.html" target="_blank">Catalogue</a></td>
                   </tr>
                   <tr>
                      <td>WaterGAP3</td>
                      <td>Universitat Kassel</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/univk/wrr1-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/univk/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/univk/wrr1/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=univk-wrr1-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=univk-wrr1-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/univk/wrr1/" target="_blank">FTP</a></td>
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/univk/wrr1/catalog.html" target="_blank">Catalogue</a></td>
                   </tr>
                   <tr>
                      <td>HBV-SIMREG</td>
                      <td>Joint Research Centre (JRC)</td>
-                     <td>
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/jrc/wrr1-hbv-daily-agg.nc" target="_blank">Daily</a> |
-                        <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/jrc/wrr1-hbv-monthly-agg.nc" target="_blank">Monthly</a>
-                     </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/jrc/wrr1-hbv/catalog.html" target="_blank">Catalogue</a></td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=jrc-wrr1-hbv-daily-agg" target="_blank">Daily</a> | <a href="https://wci.earth2observe.eu/thredds/catalog-earth2observe-model-wrr1.html?dataset=jrc-wrr1-hbv-monthly-agg" target="_blank">Monthly</a></td>
-                     <td><a href="ftp://wci.earth2observe.eu/data/primary/public/jrc/wrr1-hbv/" target="_blank">FTP</a></td>
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/jrc/wrr1-hbv/catalog.html" target="_blank">Catalogue</a></td>
                   </tr>
                </table>
                <p>* HTTP Download is not available for aggregated files</p>
@@ -251,7 +191,7 @@ Alberto Martínez-de la Torre, René Orth, Ben Calton, Sophia Burke, Wouter Dori
                         <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/wrr1-daily-agg.nc" target="_blank">Daily</a> |
                         <a href="https://wci.earth2observe.eu/portal/?wms_url=https://wci.earth2observe.eu/thredds/wms/ecmwf/wrr1-monthly-agg.nc" target="_blank">Monthly</a>
                      </td>
-                     <td><a href="https://wci.earth2observe.eu/thredds/catalog/ecmwf/met_forcing_v0/catalog.html" target="_blank">Catalogue</a></td>
+                     <td><a href="https://earth2observe.avi.deltares.nl/thredds/catalog/opendap/mirrored/pml/ecmwf/met_forcing_v0/catalog.html" target="_blank">Catalogue</a></td>
                      <td><a href="ftp://wci.earth2observe.eu/data/primary/public/ecmwf/met_forcing_v0/" target="_blank">FTP</a></td>
                   </tr>
                </table>
